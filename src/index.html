@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GoodFood</title>
+    <link rel="stylesheet" href="output.css" />
+  </head>
+  <body>
+    <div class="flex">
+      <div class="hidden flex">
+        <!--Sidebar-->
+        <div class="w-52 bg-gray-100">
+          <div class="p-4">
+            <h1 class="text-blue-900/60 text-base font-bold">
+              <span
+                class="bg-blue-900/65 rounded-full px-3 py-2 text-white text-sm font-bold"
+                >G</span
+              >
+              GOODFOOD
+            </h1>
+          </div>
+          <div class="border border-gray-400/15"></div>
+          <div class="p-4 mt-6">
+            <h2 class="text-gray-400 font-mono text-sm my-2">MENU</h2>
+            <ul class="space-y-5 py-4 text-gray-400">
+              <li class="text-center gap-3 flex">
+                <img class="w-6 h-6" src="./images/dashboard.png" /> Dashboard
+              </li>
+              <li class="text-center gap-3 flex">
+                <img class="w-6 h-6" src="./images/Buy.svg" alt="" />Food Order
+              </li>
+              <li class="text-center gap-3 flex">
+                <img class="w-6 h-6" src="./images/Document.png" alt="" />Manage
+                Menu
+              </li>
+              <li class="text-center gap-3 flex">
+                <img class="w-6 h-6" src="./images/Chat.png" alt="" /> Customer
+                Review
+              </li>
+            </ul>
+          </div>
+          <div class="p-4 mb-36">
+            <h2 class="text-gray-400 font-mono text-sm my-2">OTHERS</h2>
+            <ul class="space-y-5 py-4 text-gray-400">
+              <li class="text-center gap-3 flex">
+                <img
+                  class="w-6 h-6"
+                  src="./images/Setting.svg"
+                  alt=""
+                />Settings
+              </li>
+              <li class="text-center gap-3 flex">
+                <img class="w-6 h-6" src="./images/Wallet.svg" alt="" />Payment
+              </li>
+              <li class="text-center gap-3 flex">
+                <img class="w-6 h-6" src="./images/Profile.svg" alt="" />
+                Accounts
+              </li>
+              <li class="text-center gap-3 flex">
+                <img class="w-6 h-6" src="./images/Info Square.svg" alt="" />
+                Help
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <section class="flex-1 p-2 overflow-auto">
+        <div class="flex items-center">
+          <div class="relative">
+            <input
+              class="w-2xl mx-8 px-4 py-1 border text-gray-400/70 text-sm font-mono border-gray-300 bg-gray-400/10 rounded-sm"
+              type="text"
+              placeholder="Search..."
+              id=""
+            />
+            <img
+              class="absolute right-2 mx-12 top-1/2 transform -translate-y-1/2 w-4 h-4"
+              src="./images/Icon.svg"
+              alt=""
+            />
+          </div>
+          <div class="flex justify-center text-center ml-auto mx-12">
+            <div class="mt-1">
+              <img
+                class="w-8 h-8 px-2 py-2 rounded-full"
+                style="background-color: #ffe6cc"
+                src="./images/Emoticon.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="flex mx-4 font-serif mt-1.5 justify-center text-center gap-1 text-base text-gray-600"
+            >
+              Delicious Burger
+              <img class="w-6 h-6" src="./images/chevron_down.svg" alt="" />
+            </div>
+            <div class="mt-2">
+              <img class="w-6 h-6" src="./images/Notif Icon.svg" alt="" />
+            </div>
+          </div>
+        </div>
+        <div class="border border-gray-100 mt-3"></div>
+        <!---->
+        <section class="flex ml-9 mt-8">
+          <div class="flex-2">
+            <div>
+              <h1 class="text-lg font-medium leading-1" style="color: #1f384c">
+                DashBoard
+              </h1>
+              <div class="flex mt-8 justify-between">
+                <p class="text-base">Revenue</p>
+                <div class="mr-10">
+                  <button
+                    class="rounded-sm font-medium text-sm px-1 py-1"
+                    style="background-color: #e7eefa; color: #5a6acf"
+                  >
+                    View Report
+                  </button>
+                </div>
+              </div>
+              <div class="py-5">
+                <div class="text-2xl font-bold">NGN.7,8500.000</div>
+                <p
+                  class="flex items-center text-gray-400 font-sans text-base mt-3"
+                >
+                  <img src="./images/Arrow Up.svg" />
+                  <span class="text-green-700 font-semibold px-1 text-sm"
+                    >2.1%</span
+                  >
+                  vs last week
+                </p>
+                <p
+                  class="font-stretch-extra-condensed text-gray-400 text-lg py-5"
+                >
+                  Sales from 1-20 Dec, 2025
+                </p>
+              </div>
+              <div>
+                <img src="./images/Chart.png" alt="" />
+                <div class="flex gap-6">
+                  <p
+                    class="flex gap-2 text-base font-mono text-gray-500 font-light"
+                  >
+                    <img src="./images/Ellipse 7.svg" alt="" />Last 6 days
+                  </p>
+                  <p
+                    class="flex gap-2 font-mono text-base text-gray-500 font-light"
+                  >
+                    <img class="" src="./images/Ellipse 8.svg" /> Last Week
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="relative border border-r-0 border-gray-400/15 mx-2"></div>
+
+          <div class="flex-1">
+            <div class="flex mt-8 justify-between">
+              <p class="text-lg font-sans mr-9">Order Time</p>
+              <div class="">
+                <button
+                  class="rounded-sm font-medium text-sm px-1 py-1"
+                  style="background-color: #e7eefa; color: #5a6acf"
+                >
+                  View Report
+                </button>
+              </div>
+            </div>
+            <p class="text-sm text-gray-400 font-mono mt-3">
+              From 1-6 Jan, 2025
+            </p>
+            <div class="mt-12 flex items-center justify-center">
+              <img class="absolute" src="./images/round.png" alt="" />
+              <img
+                class="relative left-16 bottom-10"
+                src="./images/Info.svg"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="flex mt-20 gap-8 items-center text-base font-sans font-medium text-gray-500"
+            >
+              <div>
+                <p class="flex gap-2">
+                  <img src="./images/Ellipse 7.svg" alt="" /> Afternoon
+                </p>
+                <span class="font-stretch-ultra-condensed mx-4 text-sm"
+                  >40%</span
+                >
+              </div>
+              <div>
+                <p class="flex gap-2">
+                  <img src="./images/Ellipse 7 (1).svg" />Evening
+                </p>
+                <span class="font-stretch-ultra-condensed mx-4 text-sm"
+                  >32%</span
+                >
+              </div>
+              <div>
+                <p class="flex gap-2">
+                  <img src="./images/Ellipse 7 (2).svg" />Morning
+                </p>
+                <span class="font-stretch-ultra-condensed mx-4 text-sm"
+                  >28%</span
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+        <div class="border border-b-0 border-gray-400/15"></div>
+        <section class="flex ml-9 mt-8">
+          <div class="flex-2">
+            <div>
+              <h1 class="text-2xl font-semibold">Your Rating</h1>
+              <p class="tracking-wide text-gray-400 text-lg py-2">
+                Your satisfaction is our almost Priority
+              </p>
+            </div>
+            <div class="flex items-center justify-center my-8">
+              <img class="absolute" src=" ./images/Chart 2.svg" alt="" />
+              <img
+                class="relative right-24 bottom-6"
+                src="./images/Chart  1.svg"
+                alt=""
+              />
+            </div>
+            <img
+              class="relative bottom-8 left-20"
+              src="./images/Chart 3.svg"
+              alt=""
+            />
+          </div>
+          <div class="border border-gray-500"></div>
+
+          <div class="flex-1 mx-16">
+            <div>
+              <h1 class="text-xl text-center font-bold">Most Ordered Food</h1>
+              <p
+                class="tracking-wide text-gray-400 text-base text-center py-0.5"
+              >
+                Your Delivery at your Doorsteps
+              </p>
+            </div>
+            <div>
+              <div class="flex gap-2">
+                <div class="flex mt-3">
+                  <img src="./images/Group 299.svg" />
+                  <p class="text-center text-base">Fresh Salah Bowl</p>
+                  <p>NGN 45,000</p>
+                </div>
+              </div>
+              <div class="border-b border-gray-400 mx-3"></div>
+              <div class="flex gap-2">
+                <div class="flex mt-3">
+                  <img src="./images/Group 299.svg" />
+                  <p class="text-center text-base">Fresh Salah Bowl</p>
+                  <p>NGN 45,000</p>
+                </div>
+              </div>
+              <div class="border-b border-gray-400 mx-3"></div>
+              <div class="flex gap-2">
+                <div class="flex mt-3">
+                  <img src="./images/Group 299.svg" />
+                  <p class="text-center text-base">Fresh Salah Bowl</p>
+                  <p>NGN 45,000</p>
+                </div>
+              </div>
+              <div class="border-b border-gray-400 mx-3"></div>
+              <div class="flex gap-2">
+                <div class="flex mt-3">
+                  <img src="./images/Group 299.svg" />
+                  <p class="text-center text-base">Fresh Salah Bowl</p>
+                  <p>NGN 45,000</p>
+                </div>
+              </div>
+              <div class="border-b border-gray-400 mx-3"></div>
+            </div>
+          </div>
+          <div class="border border-gray-500"></div>
+
+          <div class="flex-3"></div>
+        </section>
+      </section>
+    </div>
+  </body>
+</html>
